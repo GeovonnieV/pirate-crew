@@ -5,7 +5,7 @@ import axios from "axios";
 const PirateEdit = () => {
     return(
         <div>
-
+            
         </div>
     )
 }
