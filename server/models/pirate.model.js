@@ -15,17 +15,17 @@ const PiratesSchema = new mongoose.Schema({
         required: [true, "have to work to sail aboard me ship"]
     },
     hasPegLeg: {
-        type: Boolean,
+        type: String,
         default: true,
         required: [true, "need to know for union reasons"] 
     },
     hasEyePatch: {
-        type: Boolean,
+        type: String,
         default: true ,
         required:  [true, "need to know for union reasons"]
     },
     hasHookHand: {
-        type: Boolean,
+        type: String,
         default: true ,
         required:  [true, "need to know for union reasons"]
     },
