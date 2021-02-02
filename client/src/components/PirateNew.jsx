@@ -41,7 +41,7 @@ const PirateNew = () => {
 
     return(
         <div>
-            <h1>Add a pirate to crew!</h1>
+            <h1 className="top-page">Add a pirate to crew!</h1>
             <form onSubmit={submitForm}>
                 {/* name input */}
                 <div>
@@ -131,10 +131,10 @@ const PirateNew = () => {
                 </div>
                 {/* back to home page */}
                 <Link to="/" >
-                   <button>back</button>     
+                   <button className="pirate-btn">back</button>     
                 </Link>
                   {/* btn submits form */}
-                  <button type="submit">Add pirate</button>
+                  <button className="pirate-btn" type="submit">Add pirate</button>
             </form>
         </div>
     )

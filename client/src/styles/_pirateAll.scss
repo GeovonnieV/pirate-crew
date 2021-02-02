@@ -1,0 +1,34 @@
+.pirate-all-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    // background-color: yellow;
+    margin-top: 4%;
+}
+
+.pirate-all-img{
+    border-radius: 50%;
+    width: 40%;
+    min-height: 14vh;
+    // background-color: red;
+}
+
+.pirate-all-right{
+    // background-color: blue;
+    width: 40%;
+    .pirate-all-edit{
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(46, 133, 214);
+        padding: 2%;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .pirate-all-view{
+        color: white;
+        border-radius: 4px;
+        background-color: rgb(46, 133, 214);
+        padding: 2%;
+    }
+}

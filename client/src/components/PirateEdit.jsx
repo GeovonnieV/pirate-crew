@@ -54,7 +54,7 @@ const PirateEdit = (props) => {
 
     return(
         <div>
-            <h1>Edit {name}</h1>
+            <h1 className="top-page">Edit {name}</h1>
             <form onSubmit={submitForm}>
                 {/* name input */}
                 <div>
@@ -144,10 +144,10 @@ const PirateEdit = (props) => {
                 </div>
                 {/* back to home page */}
                 <Link to="/" >
-                   <button>back</button>     
+                   <button className="pirate-btn">back</button>     
                 </Link>
                   {/* btn submits form */}
-                  <button type="submit">Edit {name}</button>
+                  <button className="pirate-btn" type="submit">Edit {name}</button>
             </form>
         </div>
     )
